@@ -1,0 +1,30 @@
+@model Microsoft.Marketplace.SaasKit.Client.DataAccess.Entities.Ocr
+
+@{
+    ViewData["Title"] = "Azure OCR File Processing";
+}
+<h1>@ViewData["Title"]</h1>
+<br />
+<div class="row">
+    <section>
+        <form method="post" enctype="multipart/form-data" asp-action="FileUpload">
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="file" name="files" multiple />
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <div class="col-md-10">
+                    <input type="submit" value="Upload" />
+                </div>
+            </div>
+        </form>
+    </section>
+</div>
+<br />
+<hr />
+<br />
+<div class="modal-body">
+        @Model.Detail
+</div>

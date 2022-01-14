@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "SaaS.Metering.Processing": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ClientSecret": "lZ87Q~ZW3hawS2HKEkYAjqVT8QJvdVOJhtHti",
+        "CosmosDb_Key": "aguZyLJHsQf6tmbKKBnYI66kIFadcXQTMhm03OuAL7KY7UtNF3XsdSa1ZfQBFh3BC4rAa7lCeIXFlM6RJNShnw==",
+        "CosmosDb_Uri": "https://saasmetereddemo.documents.azure.com:443/",
+        "CosmosDb_Collection": "metereddemo",
+        "ClientId": "2833f0a5-9a1d-4ecf-aee2-ab97aeba9b82",
+        "TenantId": "ef29fa23-67e1-4363-8f49-6c521029bd71",
+        "CosmosDb_Database": "saasmetereddemo",
+        "Scope": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7/.default"
+      }
+    }
+  }
+}
