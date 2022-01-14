@@ -67,6 +67,18 @@ The sample code and SDK in this repository run in the Publisher's environment as
 ![Use case](./docs/images/sdk_overview.png)
 
 
+
+## Metered Use Case
+This Metered Demo use the following overview design where the subscriber will use Azure OCR to translate images
+
+Every Transcation with OCR will be recorded as metered event in CosmosDB Using Azure function
+
+Every Hour there will be a Metered Billing Action function will be automatically triggered scan CosmsoDB for unprocessed event and process them to Marketplace Metered API.
+
+
+![Use case](./docs/images/saas-metered-final.png)
+
+
 ## Production Environment Reference Architecture
 How-To deploy SaaS Accelerator into a production environment? This [document](./docs/Enterprise-Reference-Architecture.md) provides recommendations on how to deploy the SaaS Accelerator into a production environment. 
 
